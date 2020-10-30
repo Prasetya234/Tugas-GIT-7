@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas-GIT-7</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a classn="navbar-brand" href="#">Tugas-GIT-7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Prasetya Dhany Putra<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Lainnya
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Profil.html">Profil</a>
+                        <a class="dropdown-item" href="index.html">Home</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Pelajar.html">Pelajari lebih lanjut</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="container">
+        <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="data:image/png;base64,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"
+                alt="" width="72" height="72">
+            <h2>Prasetya Company</h2>
+            <p class="lead">our service policy: +1 876 9875 1234</p>
+        </div>
+    
+</body>
+</html>
